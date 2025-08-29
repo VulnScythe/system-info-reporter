@@ -40,7 +40,7 @@ Create a .env file in the project root with the following code and your discord 
 DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your_webhook_here
 
 ### 5. Run the script - python file
-reporter.py
+> reporter.py
 
 ---
 
