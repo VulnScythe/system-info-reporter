@@ -80,9 +80,10 @@ Do not use it for malicious purposes. Always ensure you have permission before c
 
 ---
 
+### 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
+
+---
+
 ## 💌 Support
 If you found this project helpful, please consider giving it a star or following my profile.
-
-### 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
