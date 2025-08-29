@@ -20,7 +20,7 @@ if not WEBHOOK_URL:
     raise ValueError("Discord webhook URL not set in .env (DISCORD_WEBHOOK_URL)")
 
 
-def send_to_discord(content: str) -> None:
+def send_to_discord(content: str):
     """Send a message to Discord webhook."""
     if not content.strip():
         return
@@ -35,7 +35,7 @@ def send_to_discord(content: str) -> None:
         print(f"Error sending to Discord: {e}")
 
 
-def run_command(command: list[str]) -> str:
+def run_command(command: list[str]):
     """Run a system command and return stdout (truncated if too long)."""
     try:
         result = run(command, capture_output=True, text=True, check=True)
@@ -60,7 +60,7 @@ def get_public_ip() -> str | None:
         return None
 
 
-def get_location(ip: str) -> str | None:
+def get_location(ip: str):
     """Fetch approximate location info from IP (using ipinfo.io)."""
     try:
         response = requests.get(f"https://ipinfo.io/{ip}/json", timeout=5)
@@ -85,7 +85,7 @@ def get_location(ip: str) -> str | None:
         return None
 
 
-def get_system_info() -> str:
+def get_system_info():
     """Collect basic system information."""
     uname = platform.uname()
     hostname = socket.gethostname()
@@ -121,3 +121,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
