@@ -46,25 +46,39 @@ DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your_webhook_here
 
 ### 📸 Example Discord Output
 Machine Info:
+
 System: Windows 11 (10.0.22621)
+
 Machine: AMD64
+
 Processor: Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+
 Hostname: MY-PC
+
 Username: johndoe
 
 Local IPs:
+
 Ethernet adapter Ethernet:
+
    Connection-specific DNS Suffix  . :
+   
    IPv4 Address. . . . . . . . . . . : 192.168.1.42
 
 Public IP:
+
 123.45.67.89
 
 Approx. Location:
+
 City: Berlin
+
 Region: Berlin
+
 Country: DE
+
 Coordinates: 52.5200,13.4050
+
 ISP: AS12345 ExampleISP
 
 ---
