@@ -1,10 +1,3 @@
-```
-  ____   __ __ _____ ___ __ __    _ __  _ ___ __     ___ ___ ___  __  ___ _____ ___ ___  
-/' _| `v' /' _/_   _| __|  V  |__| |  \| | __/__\ __| _ \ __| _,\/__\| _ \_   _| __| _ \ 
-`._`.`. .'`._`. | | | _|| \_/ |__| | | ' | _| \/ |__| v / _|| v_/ \/ | v / | | | _|| v / 
-|___/ !_! |___/ |_| |___|_| |_|  |_|_|\__|_| \__/   |_|_\___|_|  \__/|_|_\ |_| |___|_|_\                                        
-                                                                                                                                                                                                                 
-```
 # 🛰️ System Info & IP Reporter
 
 A lightweight Python tool that collects **system information, local IPs, public IP, and approximate geolocation** and sends the report to a **Discord channel via webhook**.
