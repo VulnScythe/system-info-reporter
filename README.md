@@ -78,6 +78,11 @@ ISP: AS12345 ExampleISP
 This project is intended for educational and administrative use only.
 Do not use it for malicious purposes. Always ensure you have permission before collecting or sharing system/network information.
 
+---
+
+## 💌 Support
+If you found this project helpful, please consider giving it a star or following my profile.
+
 ### 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
